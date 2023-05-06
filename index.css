@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 16px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+#menu-1 {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content:space-around;
+  align-items: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+#container-inicio {
+  width: 19.8125rem;
+  height: 13.6875rem;
+}
+
+#container-agregar {
+  display: none;
+  justify-content:space-between;
+  width: 40rem;
+  height: 23rem;
+}
+
+#container-agregar-espacioBotones {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#container-final {
+  display: none;
+  width: 47.5rem;
+  height: 24.0625rem;
+}
+
+.texto {
+  font-family: 'Inter';
+  text-align: center;
+  color: #0A3871;
+}
+
+.titulo {
+  font-size: 4.375rem;
+}
+
+.subtitulo {
+  font-size: 1.2rem;
+  color: gray;
+}
+
+input {
+  border-radius: 6px;
+  font-size: 1.5rem;
+}
+
+.boton {
+  width: 15.313rem;
+  height: 4.688rem;
+  font-style:normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+}
+
+.btnColor1 {
+  background: #0A3871;
+  color: aliceblue;
+}
+
+.btnColor2 {
+  background-color: aliceblue;
+  color: #0A3871;
+}
+
+#botonJugar {
+  width: 19.8125rem;
+  height: 7.125rem;
+}
+
+#tablero {
+  width: 1400px;
+  height: 760px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+@media (max-width:1280px) and (min-width: ) {
+  
+}
+
+@media (max-width: ) {
+
+}

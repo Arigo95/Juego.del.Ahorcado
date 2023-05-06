@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del ahorcado</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="menu-1">
+      <div id="tablero">
+        <canvas id="pizarra" width="1400" height="760"></canvas>
+      </div>
+      <div id="container-inicio" class="container">
+        <button id="botonJugar" class="boton texto btnColor1">Iniciar Juego</button>
+        <button id="botonAgregar" class="boton texto btnColor2">Agregar nueva palabra</button>
+      </div>
+      <div id="container-agregar" class="container">
+        <p id="titulo-agregar" class="texto titulo">Agrega tu palabra</p>
+        <p id="subtitulo-agregar" class="texto subtitulo">Debe ser de máximo 10 carácteres.</p>
+        <input id="nuevaPalabra" type="text" maxlength="10" required>
+        <div id="container-agregar-espacioBotones">
+          <button id="botonAceptar" class="boton texto btnColor1">Aceptar</button>
+          <button id="botonRegresar" class="boton texto btnColor2">Regresar</button>
+        </div>
+      </div>
+      <div id="container-final" class="container">
+        <p id="titulo-final" class="texto titulo"></p>
+        <p id="subtitulo-final" class="texto subtitulo"></p>
+        <button id="botonReiniciar" class="boton texto btnColor1">Reiniciar</button>
+      </div>
+    </div>
+  <script src="JS/iniciarJuego.js"></script>
+  <script src="JS/canvas.js"></script>
+  <script src="JS/palabraYLetras.js"></script>
+  <script src="JS/agregarPalabra.js"></script>
+  <script src="JS/finalJuego.js"></script>
+  <script src="JS/reiniciarJuego.js"></script>
+  </body>
+</html>
